@@ -1,13 +1,13 @@
 import tkinter as tk
-from Pruebas.chi_squared import ChiSquaredTestCalculator
-from Pruebas.kruskal import KruskalWallisTestCalculator
-from Pruebas.mann_whitney import MannWhitneyTestCalculator
-from Pruebas.shapiro import ShapiroWilkTestCalculator
-from Pruebas.spearman_correl import SpearmanCorrelationCalculator
-from Pruebas.t_test import TTestCalculator 
-from Pruebas.anova import ANOVACalculator 
-from Pruebas.pearson import PearsonCorrelationCalculator
-from Pruebas.wilcoxon import WilcoxonTestCalculator 
+from pruebas.no_param.chi_squared import ChiSquaredTestCalculator
+from pruebas.no_param.kruskal import KruskalWallisTestCalculator
+from pruebas.no_param.mann_whitney import MannWhitneyTestCalculator
+from pruebas.no_param.shapiro import ShapiroWilkTestCalculator
+from pruebas.no_param.spearman_correl import SpearmanCorrelationCalculator
+from pruebas.no_param.wilcoxon import WilcoxonTestCalculator 
+from pruebas.param.t_test import TTestCalculator 
+from pruebas.param.anova import ANOVACalculator 
+from pruebas.param.pearson import PearsonCorrelationCalculator
 
 class CalculatorApp:
     def __init__(self, root):
